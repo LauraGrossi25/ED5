@@ -10,4 +10,4 @@ Este repositório contém a implementação manual do controlador PR desenvolvid
 
 ## Observação
 
-Os arquivos referentes ao modelo desenvolvido no **PLECS** e ao projeto do **Typhoon HIL** não estão incluídos neste repositório devido ao tamanho dos arquivos e foram encaminhados separadamente em formato compactado (.zip).
+Os arquivos referentes ao modelo desenvolvido no **PLECS** e ao projeto do **Typhoon HIL** não estão incluídos neste repositório, foram encaminhados separadamente em formato compactado (.zip).
