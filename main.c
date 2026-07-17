@@ -32,18 +32,41 @@ float s2 = 0.0f;
 
 float modulante = 0.0f;
 
-
+//uint32_t contadorAmostras = 0;
 
 
 /*================================================*/
 /* Geração da referência */
 /*================================================*/
 
+  
 void geraReferencia(void)
 {
     iref = IREF_AMP * (vg / VP);
     
+}*/
+
+//TESTE 1
+/*
+void geraReferencia(void)
+{
+    float iref_amp;
+
+    if(contadorAmostras < 83U)
+    {
+        iref_amp = 12.85f;
+    }
+    else
+    {
+        iref_amp = 6.42f;
+    }
+
+    iref = iref_amp * (vg / VP);
+
+    contadorAmostras++;
 }
+
+
 
 /*================================================*/
 /* Controlador PR                                 */
