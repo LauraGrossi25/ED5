@@ -44,7 +44,7 @@ void geraReferencia(void)
 {
     iref = IREF_AMP * (vg / VP);
     
-}*/
+}
 
 //TESTE 1
 /*
